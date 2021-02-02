@@ -312,7 +312,7 @@ export class HangoutsAdapter extends BotAdapter {
 
             // Set activity text to full message text if incoming message is a slash command
             if (event.message && event.message.slashCommand) {
-                activity.text = event.text.trim();
+                activity.text = event.message.text.trim();
             }
 
             // Change type of message event for private messages
