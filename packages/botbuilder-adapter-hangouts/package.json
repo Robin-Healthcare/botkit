@@ -33,6 +33,9 @@
     "type": "git",
     "url": "https://github.com/howdyai/botkit.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
     "botbuilder": "^4.10.1",
     "botkit": "^4.10.0",
