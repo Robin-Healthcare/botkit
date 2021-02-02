@@ -1,6 +1,10 @@
 {
   "name": "botkit-packages",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robin-Healthcare/botkit"
+  },
   "scripts": {
     "postinstall": "lerna bootstrap --hoist",
     "build": "lerna run build",
