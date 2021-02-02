@@ -310,6 +310,10 @@ export class HangoutsAdapter extends BotAdapter {
                 type: event.message ? ActivityTypes.Message : ActivityTypes.Event
             };
 
+            if (event.slashCommand) {
+                activity.text = event.text.trim();
+            }
+
             // Change type of message event for private messages
             if (event.space.type === 'DM') {
                 activity.channelData.botkitEventType = 'direct_message';
