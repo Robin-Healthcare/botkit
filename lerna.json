@@ -1,6 +1,6 @@
 {
   "packages": [
-    "packages/*"
+    "packages/botbuilder-adapter-hangouts"
   ],
   "version": "independent"
 }
