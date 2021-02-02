@@ -1,5 +1,5 @@
 {
-  "name": "botbuilder-adapter-hangouts",
+  "name": "@robin-healthcare/botbuilder-adapter-hangouts",
   "version": "1.0.9",
   "description": "Connect Botkit or BotBuilder to Google Hangouts",
   "main": "./lib/index.js",
@@ -50,5 +50,5 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1"
   },
-  "gitHead": "f98c1ebbfb1afc0c6a8f006902320a08ab07cd24"
+  "gitHead": "2fd003fb5cc5de53b12554fad308c6625b78bbee"
 }
